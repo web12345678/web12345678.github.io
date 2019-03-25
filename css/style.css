@@ -1,0 +1,247 @@
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+ul  {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a  {
+	text-decoration: none;
+}
+p  {
+	font-size: 13px;
+	line-height: 1.3em;
+}
+button:hover {
+	background-color: #00CCCC;
+	color: white;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+/*HEADER*/
+.header {
+	padding: 10px 0;
+	background-color: #00CCCC;
+	
+	
+}
+.header h1 {
+	color: white;
+	text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+	position: absolute;
+	margin-top: 305px;
+	margin-left: 400px;
+	
+}
+.logo img {
+	position: absolute;
+	z-index: 1;
+	width: 200px;
+	margin-top: 220px;
+	
+	
+}
+
+/*SLIDER*/
+
+#slider {
+	width: 900px;
+	height: 300px;
+	border: 3px solid white;
+	margin: 30px auto;
+	overflow: hidden;
+
+}
+
+#polosa {
+	/*background: pink;*/
+	width: 6300px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa img {
+	float: left;
+}
+
+#polosa::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*NAVIGATION*/
+.page-navigation  {
+	background-color: #222;
+	border-color: #101010;
+	min-height: 64px;
+}
+.page-navigation li {
+	float: left;
+	width: 230px;
+}
+.page-navigation a {
+	display: block;
+	color: #00CCCC;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+.page-navigation li a:hover {
+	color: white;
+	background-color: black;
+}
+/*MAIN*/
+.collections {
+	overflow: auto;
+}
+.collection-title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+	color: #777;
+	font-size: 36px;
+}
+.collection-item-outer {
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+.collections >div:first-child{
+	padding-left: 0;
+	padding-right: 10px;
+} 
+.collections >div:last-child{
+	padding-left: 0;
+	padding-right: 10px;
+} 
+.collection-item {
+	border: 1px solid #959595;
+}
+.collection-item img, 
+.collection-item video{
+	width:100%
+}
+/*IMG*/
+#myImg,#myImg1,#myImg2{
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 2s;
+}
+#myImg:hover {opacity:0.7;} 
+#myImg1:hover {opacity:0.7;} 
+#myImg2:hover {opacity:0.7;} 
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+.modal-content{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+#caption,#caption1,#caption2{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px
+}
+.modal-content, #caption,#caption1,#caption2{
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+	from{-webkit-transform:scale(0)}
+	to{-webkit-transform:scale(1)}
+}
+@keyframes zoom{
+	from{transform:scale(0)}
+	to{transform:scale(1)}
+}
+.close{
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+.close:hover, .close:focus{
+color: #bbb;
+text-decoration: none;
+cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+	.modal-content{width: 100%;}
+}
+/*/IMG*/
+.collection-text {
+	padding: 0 20px 20px 20px;
+}
+.collection-text h3 {
+	color: #00CCCC;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.collection-text p {
+	height: 80px;
+	overflow: hidden;
+	text-align: justify;
+}
+.collection-text button {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+
+/*FOOTER*/
+.footer {
+	background-color: #00CCCC;
+	color: white;
+padding: 20px 0;
+margin-top: 30px;
+}
