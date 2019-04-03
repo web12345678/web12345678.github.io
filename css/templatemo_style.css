@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-394-sonic
 
 .main-menu, .responsive-menu ul, .social-member, .progess-bars, .first-footer .social-footer ul { padding: 0; margin: 0; list-style: none; }
 
-body { font: 14px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif; color: #777777; font-weight: 400; font-style: normal; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
+body { font: 14px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif; color: #b4f5fd; font-weight: 400; font-style: normal; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
 
 a, a:hover, a:focus { text-decoration: none; -webkit-transition: all 150ms ease-in; -moz-transition: all 150ms ease-in; -o-transition: all 150ms ease-in; transition: all 150ms ease-in; }
 
@@ -67,8 +67,8 @@ a.largeButton.contactBgColor { border-color: #9f164d; }
 li.home a { border-color: #38a9e3; }
 li.home a.active { color: #38a9e3; }
 
-li.about a { border-color: #e9b144; }
-li.about a.active { color: #e9b144; }
+li.about a { border-color: #1f169e; }
+li.about a.active { color: #1f169e; }
 
 li.services a { border-color: #974dea; }
 li.services a.active { color: #974dea; }
