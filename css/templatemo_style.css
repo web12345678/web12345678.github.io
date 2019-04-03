@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-394-sonic
 
 .main-menu, .responsive-menu ul, .social-member, .progess-bars, .first-footer .social-footer ul { padding: 0; margin: 0; list-style: none; }
 
-body { font: 14px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif; color: #777777; font-weight: 300; font-style: normal; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
+body { font: 14px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif; color: #777777; font-weight: 400; font-style: normal; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
 
 a, a:hover, a:focus { text-decoration: none; -webkit-transition: all 150ms ease-in; -moz-transition: all 150ms ease-in; -o-transition: all 150ms ease-in; transition: all 150ms ease-in; }
 
@@ -21,10 +21,10 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', Arial, Helvetice Neue, sans-s
 .section-content { padding: 0 7%; margin-bottom: 100px; }
 
 .section-title { border-top: 4px solid; margin-bottom: 60px; }
-.section-title h2 { display: inline-block; padding: 20px 35px; color: white; text-transform: uppercase; font-weight: 300; margin: 0; font-size: 20px; }
+.section-title h2 { display: inline-block; padding: 20px 35px; color: white; text-transform: uppercase; font-weight: 400; margin: 0; font-size: 20px; }
 
 #about .section-title { border-color: #e09d1a; }
-#about h2 { background-color: #220a84; }
+#about h2 { background-color: #ffffff00; }
 
 #services .section-title { border-color: #071127; }
 #services h2 { background-color: #071127; }
@@ -108,7 +108,7 @@ a.menu-toggle-btn i { line-height: 60px; }
 .welcome-text { padding: 60px; text-align: center; }
 .welcome-text a { color: #38a9e3; }
 .welcome-text h2 { color: #38a9e3; font-weight: 300; text-transform: uppercase; font-size: 32px; }
-.welcome-text p { color: #aaaaaa; }
+.welcome-text p { color: #01a9cc; }
 
 .member-item { overflow: hidden; height: auto; }
 .member-item:hover .overlay { opacity: 1; visibility: visible; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
@@ -118,8 +118,8 @@ a.menu-toggle-btn i { line-height: 60px; }
 .member-thumb .overlay { position: absolute; top: 0; right: 0; opacity: 0; visibility: hidden; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); }
 
 .member-content { margin-top: 10px; overflow: hidden; text-align: center; }
-.member-content h4 { text-transform: uppercase; font-size: 18px; color: #e9b144; }
-.member-content p { color: #aaaaaa; font-size: 12; }
+.member-content h4 { text-transform: uppercase; font-size: 18px; color: #b4f5fd; }
+.member-content p { color: #01a9cc; font-size: 12; }
 
 .social-member li { display: inline; float: left; width: 40px; height: 40px; background-color: #e9b144; text-align: center; margin-right: 1px; }
 .social-member li a { display: block; line-height: 40px; color: white; }
@@ -134,7 +134,7 @@ a.menu-toggle-btn i { line-height: 60px; }
 .service-item { background-color: #974dea; color: white; }
 .service-item .service-icon { width: 25%; float: left; overflow: hidden; display: inline-block; text-align: center; margin-top: 30px; height: 100%; }
 .service-item .service-content { width: 75%; overflow: hidden; text-align: center; padding: 20px 20px 20px 0; }
-.service-item .service-content h3 { margin: 0; font-size: 20px; }
+.service-item .service-content h3 { margin: 0; font-size: 15px; }
 
 .our-skills { margin-top: 80px; }
 .our-skills h3 { color: #974dea; font-weight: 300; text-transform: uppercase; font-size: 24px; margin: 0 0 20px 0; }
@@ -166,13 +166,13 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .submit-btn { margin-top: 30px; }
 
-.first-footer { background-color: #495054; padding: 50px; text-align: center; border-left: 5px solid #313639; }
+.first-footer { background-color: #071127; padding: 50px; text-align: center; }
 .first-footer .social-footer ul li { display: inline; }
 .first-footer .social-footer ul li a { width: 40px; height: 40px; -webkit-border-radius: 3px; border-radius: 3px; background-clip: padding-box; /* stops bg color from leaking outside the border: */ background-color: #313639; text-align: center; line-height: 40px; color: white; }
 
-.bottom-footer { background-color: #313639; color: #949da2; padding: 25px 7% 16px 7%; }
+.bottom-footer { background-color: #071127; color: #fcfcfc; padding: 25px 7% 16px 7%; }
 .bottom-footer a { color: white; }
-.bottom-footer .credits { text-align: right; }
+.bottom-footer .credits { text-align: center; }
 
 @media (max-width: 991px) { #main-content { width: 100%; }
   .first-footer { border-left: 0; }
